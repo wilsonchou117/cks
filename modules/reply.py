@@ -11,7 +11,7 @@ faq = {
          original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
         preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
     ),
-    '美股即時報價': TemplateSendMessage(
+    '國小課程查詢': TemplateSendMessage(
         alt_text='Carousel template2',
         template=CarouselTemplate(
             columns=[
@@ -75,7 +75,7 @@ faq = {
             ]
         )
     ),
-    '台股即時報價': TemplateSendMessage(
+    '視聽觀看': TemplateSendMessage(
         alt_text='Carousel template2',
         template=CarouselTemplate(
             columns=[
@@ -226,7 +226,7 @@ faq = {
         latitude=25.03528,
         longitude=121.56473
     ),
-    '查詢匯率': TemplateSendMessage(
+    '國小課程查詢': TemplateSendMessage(
         alt_text='Carousel template',
         template=CarouselTemplate(
             columns=[
