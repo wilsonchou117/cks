@@ -142,9 +142,9 @@ faq = {
     '聯絡方式': TextSendMessage(
         text="請加入Line Id: wenjuichou"
     ),
-    '門市照片': ImageSendMessage(
-        original_content_url='https://picsum.photos/id/395/900/400',
-        preview_image_url='https://picsum.photos/id/395/900/400'
+    '匯款資訊': ImageSendMessage(
+        original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
+        preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
     ),
     '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
