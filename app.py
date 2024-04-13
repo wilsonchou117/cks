@@ -123,6 +123,11 @@ def handle_message(event):
         bid=table3[user_msg]["bid3"]
         report=f"{user_msg} 現在價格{bid}"
         reply=TextSendMessage(text=report)
+    elif user_msg=='匯款資訊':
+        report=ImageSendMessage(
+        original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
+        preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
+    )
     else:
         try:
             GPT_answer = GPT_response(user_msg)
