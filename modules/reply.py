@@ -161,6 +161,9 @@ faq = {
     '預約視聽': TextSendMessage(
         text="https://calendar.google.com/calendar/u/0/r/month/2023/10/1?pli=1"
     ),
+    '預約畫位': TextSendMessage(
+        text="https://docs.google.com/spreadsheets/d/18o1G9n05nC3cSrosfvnM99IEyg1V7jHJtm-CRmd2a_s/edit?pli=1#gid=0"
+    ),
     '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
                               QuickReplyButton(action=MessageAction(
@@ -235,7 +238,7 @@ faq = {
     'MediaTek': TextSendMessage(
         text="聯發科 2023/3/1 買點:945，賣點996"
     ),
-    '營業地址': LocationSendMessage(
+    '分校地址': LocationSendMessage(
         title='my location',
         address='Taiwan',
         latitude=25.03528,
@@ -374,12 +377,12 @@ menu = TemplateSendMessage(
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
-                        label='預約視聽',
-                        text='預約視聽'
+                        label='預約畫位',
+                        text='預約畫位'
                     ),
                     MessageAction(
-                        label='匯款資訊',
-                        text='匯款資訊'
+                        label='分校地址',
+                        text='分校地址'
                     ),
                     MessageAction(
                         label='視聽觀看',
