@@ -188,7 +188,7 @@ def handle_sticker_message(event):
     # 準備要回傳的貼圖訊息
     # HINT: 機器人可用的貼圖 https://devdocs.line.me/files/sticker_list.pdf
     #reply = StickerSendMessage(package_id='2', sticker_id='149')
-    reply='hi'
+    reply=menu
 
 
 

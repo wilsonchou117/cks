@@ -17,7 +17,7 @@ faq = {
             columns=[
                 CarouselColumn(
                     # 匯率選單一圖片網址
-                    title='美股選單一',
+                    title='打手槍',
                     text='點選下方按鈕查詢美股即時報價',
                     actions=[
                         MessageAction(
@@ -142,9 +142,9 @@ faq = {
     '聯絡方式': TextSendMessage(
         text="請加入Line Id: wenjuichou"
     ),
-    '匯款資訊': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
-        preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
+    '門市照片': ImageSendMessage(
+        original_content_url='https://picsum.photos/id/395/900/400',
+        preview_image_url='https://picsum.photos/id/395/900/400'
     ),
     '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
