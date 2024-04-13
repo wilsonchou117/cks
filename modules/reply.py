@@ -143,8 +143,8 @@ faq = {
         text="https://docs.google.com/spreadsheets/d/1qbuEm3QcCdNaFr6Jss2I0SjPWxW-jPrb30Pd-xaMH-I/edit#gid=924794706"
     ),
     '門市照片': ImageSendMessage(
-        original_content_url='https://picsum.photos/id/395/900/400',
-        preview_image_url='https://picsum.photos/id/395/900/400'
+        original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
+        preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
     ),
     '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
@@ -342,8 +342,8 @@ menu = TemplateSendMessage(
                         text='美股買賣點'
                     ),
                     MessageAction(
-                        label='台股買賣點',
-                        text='台股買賣點'
+                        label='門市照片',
+                        text='門市照片'
                     ),
                     MessageAction(
                         label='視聽觀看',
