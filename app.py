@@ -124,9 +124,10 @@ def handle_message(event):
         report=f"{user_msg} 現在價格{bid}"
         reply=TextSendMessage(text=report)
     elif user_msg=='匯款資訊':
-        report=ImageSendMessage(
+        reply=ImageSendMessage(
         original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
         preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
+
     )
     else:
         try:
