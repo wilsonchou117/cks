@@ -11,7 +11,7 @@ faq = {
         package_id='1',
         sticker_id='1'
     ),
-    '國中課程查詢': TemplateSendMessage(
+    '美股即時報價': TemplateSendMessage(
         alt_text='Carousel template2',
         template=CarouselTemplate(
             columns=[
@@ -82,7 +82,7 @@ faq = {
                 CarouselColumn(
                     # 匯率選單一圖片網址
                     title='台股選單一',
-                    text='點選下方按鈕查詢台股即時報價',
+                    text='點選下方按鈕查詢國小課程報價',
                     actions=[
                         MessageAction(
                             label='查詢台積電',
@@ -145,6 +145,14 @@ faq = {
     '匯款資訊': ImageSendMessage(
         original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
         preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
+    ),
+    '國小課程查詢': ImageSendMessage(
+        original_content_url='https://i.postimg.cc/GtP9p09h/S-6152309-0.jpg',
+        preview_image_url='https://i.postimg.cc/GtP9p09h/S-6152309-0.jpg'
+    ),
+    '國中課程查詢': ImageSendMessage(
+        original_content_url='https://i.postimg.cc/SxfLv5r4/S-6152311-0.jpg',
+        preview_image_url='https://i.postimg.cc/SxfLv5r4/S-6152311-0.jpg'
     ),
     '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
@@ -226,7 +234,7 @@ faq = {
         latitude=25.03528,
         longitude=121.56473
     ),
-    '國小課程查詢': TemplateSendMessage(
+    '查詢匯率': TemplateSendMessage(
         alt_text='Carousel template',
         template=CarouselTemplate(
             columns=[
@@ -326,8 +334,8 @@ menu = TemplateSendMessage(
                         text='美股即時報價'
                     ),
                     MessageAction(
-                        label='台股即時報價',
-                        text='台股即時報價'
+                        label='國小課程報價',
+                        text='國小課程報價'
                     )
                 ]
             ),
@@ -338,8 +346,8 @@ menu = TemplateSendMessage(
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
-                        label='美股買賣點',
-                        text='美股買賣點'
+                        label='國中課程報價',
+                        text='國中課程報價'
                     ),
                     MessageAction(
                         label='匯款資訊',
