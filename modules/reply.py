@@ -139,10 +139,10 @@ faq = {
             ]
         )
     ),
-    '打開鏈結': TextSendMessage(
+    '視聽觀看': TextSendMessage(
         text="https://docs.google.com/spreadsheets/d/1qbuEm3QcCdNaFr6Jss2I0SjPWxW-jPrb30Pd-xaMH-I/edit#gid=924794706"
     ),
-    '門市照片': ImageSendMessage(
+    '匯款資訊': ImageSendMessage(
         original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
         preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
     ),
@@ -342,12 +342,12 @@ menu = TemplateSendMessage(
                         text='美股買賣點'
                     ),
                     MessageAction(
-                        label='門市照片',
-                        text='門市照片'
+                        label='匯款資訊',
+                        text='匯款資訊'
                     ),
                     MessageAction(
                         label='視聽觀看',
-                        text='打開鏈結'
+                        text='視聽觀看'
                     )
                 ]
             )
