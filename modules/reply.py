@@ -11,7 +11,7 @@ faq = {
         package_id='1',
         sticker_id='1'
     ),
-    '美股即時報價': TemplateSendMessage(
+    '國中課程查詢': TemplateSendMessage(
         alt_text='Carousel template2',
         template=CarouselTemplate(
             columns=[
@@ -139,8 +139,8 @@ faq = {
             ]
         )
     ),
-    '聯絡方式': TextSendMessage(
-        text="請加入Line Id: wenjuichou"
+    '打開鏈結': TextSendMessage(
+        text="https://docs.google.com/spreadsheets/d/1qbuEm3QcCdNaFr6Jss2I0SjPWxW-jPrb30Pd-xaMH-I/edit#gid=924794706"
     ),
     '門市照片': ImageSendMessage(
         original_content_url='https://picsum.photos/id/395/900/400',
@@ -322,7 +322,7 @@ menu = TemplateSendMessage(
                         text='國小課程查詢'
                     ),
                     MessageAction(
-                        label='美股即時報價',
+                        label='國中課程查詢',
                         text='美股即時報價'
                     ),
                     MessageAction(
@@ -347,7 +347,7 @@ menu = TemplateSendMessage(
                     ),
                     MessageAction(
                         label='其他公司買賣點諮詢',
-                        text='聯絡方式'
+                        text='打開鏈結'
                     )
                 ]
             )
