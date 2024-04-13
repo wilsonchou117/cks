@@ -363,6 +363,10 @@ menu = TemplateSendMessage(
                     MessageAction(
                         label='視聽觀看',
                         text='視聽觀看'
+                    ),
+                    MessageAction(
+                        label='視聽觀看',
+                        text='視聽觀看'
                     )
                 ]
             )
