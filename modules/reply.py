@@ -244,7 +244,7 @@ faq = {
     '分校地址': LocationSendMessage(
         title='my location',
         address='Taipei',
-        latitude=25.03148,
+        latitude=25.03150,
         longitude=121.51912
     ),
     '查詢匯率': TemplateSendMessage(
