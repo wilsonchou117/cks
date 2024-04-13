@@ -17,7 +17,7 @@ faq = {
             columns=[
                 CarouselColumn(
                     # 匯率選單一圖片網址
-                    title='打手槍',
+                    title='美股選單一',
                     text='點選下方按鈕查詢美股即時報價',
                     actions=[
                         MessageAction(
@@ -314,36 +314,36 @@ menu = TemplateSendMessage(
             CarouselColumn(
                 # 卡片一圖片網址
                 thumbnail_image_url='https://picsum.photos/id/296/900/400',
-                title='打手槍',
+                title='課程查詢',
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
-                        label='查詢匯率',
-                        text='查詢匯率'
+                        label='國小課程查詢',
+                        text='國小課程查詢'
                     ),
                     MessageAction(
-                        label='美股即時報價',
-                        text='美股即時報價'
+                        label='國中課程查詢',
+                        text='國中課程查詢'
                     ),
                     MessageAction(
-                        label='台股即時報價',
-                        text='台股即時報價'
+                        label='視聽觀看',
+                        text='視聽觀看'
                     )
                 ]
             ),
             CarouselColumn(
                 # 卡片二圖片網址
                 thumbnail_image_url='https://picsum.photos/id/355/900/400',
-                title='做愛',
+                title='課程報價諮詢',
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
-                        label='美股買賣點',
-                        text='美股買賣點'
+                        label='國小課程報價',
+                        text='國小課程報價'
                     ),
                     MessageAction(
-                        label='台股買賣點',
-                        text='台股買賣點'
+                        label='國中課程報價',
+                        text='國中課程報價'
                     ),
                     MessageAction(
                         label='匯款資訊',
