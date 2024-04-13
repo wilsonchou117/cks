@@ -7,11 +7,11 @@ from linebot.models import (
 
 # 常見問答表
 faq = {
-    '匯款資訊': ImageSendMessage(
-         original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
-        preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
+    '貼圖': StickerSendMessage(
+        package_id='1',
+        sticker_id='1'
     ),
-    '國小課程查詢': TemplateSendMessage(
+    '美股即時報價': TemplateSendMessage(
         alt_text='Carousel template2',
         template=CarouselTemplate(
             columns=[
@@ -75,7 +75,7 @@ faq = {
             ]
         )
     ),
-    '視聽觀看': TemplateSendMessage(
+    '台股即時報價': TemplateSendMessage(
         alt_text='Carousel template2',
         template=CarouselTemplate(
             columns=[
@@ -146,7 +146,7 @@ faq = {
         original_content_url='https://picsum.photos/id/395/900/400',
         preview_image_url='https://picsum.photos/id/395/900/400'
     ),
-    '國小課程報價': TextSendMessage(text='請問您想詢問哪家公司？',
+    '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
                               QuickReplyButton(action=MessageAction(
                                   label="蘋果公司", text="蘋果")
@@ -174,7 +174,7 @@ faq = {
                               )
                              ])
                           ),
-    '國中課程報價': TextSendMessage(text='請問您想詢問哪家公司？',
+    '台股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
                               QuickReplyButton(action=MessageAction(
                                   label="台積電", text="TSMC")
@@ -226,7 +226,7 @@ faq = {
         latitude=25.03528,
         longitude=121.56473
     ),
-    '國小課程查詢': TemplateSendMessage(
+    '查詢匯率': TemplateSendMessage(
         alt_text='Carousel template',
         template=CarouselTemplate(
             columns=[
@@ -314,40 +314,40 @@ menu = TemplateSendMessage(
             CarouselColumn(
                 # 卡片一圖片網址
                 thumbnail_image_url='https://picsum.photos/id/296/900/400',
-                title='課程查詢',
+                title='報價查詢',
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
-                        label='國小課程查詢',
-                        text='國小課程查詢'
+                        label='查詢匯率',
+                        text='查詢匯率'
                     ),
                     MessageAction(
-                        label='國中課程查詢',
-                        text='國中課程查詢'
+                        label='美股即時報價',
+                        text='美股即時報價'
                     ),
                     MessageAction(
-                        label='視聽觀看',
-                        text='視聽觀看'
+                        label='台股即時報價',
+                        text='台股即時報價'
                     )
                 ]
             ),
             CarouselColumn(
                 # 卡片二圖片網址
                 thumbnail_image_url='https://picsum.photos/id/355/900/400',
-                title='課程報價諮詢',
+                title='明牌報價',
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
-                        label='國小課程報價',
-                        text='國小課程報價'
+                        label='美股買賣點',
+                        text='美股買賣點'
                     ),
                     MessageAction(
-                        label='國中課程報價',
-                        text='國中課程報價'
+                        label='台股買賣點',
+                        text='台股買賣點'
                     ),
                     MessageAction(
-                        label='匯款資訊',
-                        text='匯款資訊'
+                        label='其他公司買賣點諮詢',
+                        text='聯絡方式'
                     )
                 ]
             )

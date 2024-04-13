@@ -123,7 +123,7 @@ def handle_message(event):
         bid=table3[user_msg]["bid3"]
         report=f"{user_msg} 現在價格{bid}"
         reply=TextSendMessage(text=report)
-    elif user_msg=='匯款資訊':
+    elif user_msg in table3:
         reply=ImageSendMessage(
         original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
         preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
