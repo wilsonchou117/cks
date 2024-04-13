@@ -154,13 +154,12 @@ faq = {
         original_content_url='https://i.postimg.cc/SxfLv5r4/S-6152311-0.jpg',
         preview_image_url='https://i.postimg.cc/SxfLv5r4/S-6152311-0.jpg'
     ),
-    '國小課程報價': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/YqFFLVL7/F120-D2-AF-674-D-458-F-A0-E5-B65-A4-B0-FCC7-F.jpg',
-        preview_image_url='https://i.postimg.cc/YqFFLVL7/F120-D2-AF-674-D-458-F-A0-E5-B65-A4-B0-FCC7-F.jpg'
+    '課程報價': ImageSendMessage(
+        original_content_url='https://i.postimg.cc/Z5P0mvCt/S-20881558.jpg',
+        preview_image_url='https://i.postimg.cc/Z5P0mvCt/S-20881558.jpg'
     ),
-    '國中課程報價': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/vm03TBcD/78-EA88-FE-964-F-43-D7-A36-F-9-A98576-FEBA6.jpg',
-        preview_image_url='https://i.postimg.cc/vm03TBcD/78-EA88-FE-964-F-43-D7-A36-F-9-A98576-FEBA6.jpg'
+    '預約視聽': TextSendMessage(
+        text="https://calendar.google.com/calendar/u/0/r/month/2023/10/1?pli=1"
     ),
     '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
