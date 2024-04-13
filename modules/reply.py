@@ -346,7 +346,7 @@ menu = TemplateSendMessage(
                         text='台股買賣點'
                     ),
                     MessageAction(
-                        label='其他公司買賣點諮詢',
+                        label='視聽觀看',
                         text='打開鏈結'
                     )
                 ]
