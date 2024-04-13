@@ -146,7 +146,7 @@ faq = {
         original_content_url='https://picsum.photos/id/395/900/400',
         preview_image_url='https://picsum.photos/id/395/900/400'
     ),
-    '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
+    '國小課程報價': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
                               QuickReplyButton(action=MessageAction(
                                   label="蘋果公司", text="蘋果")
@@ -174,7 +174,7 @@ faq = {
                               )
                              ])
                           ),
-    '台股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
+    '國中課程報價': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
                               QuickReplyButton(action=MessageAction(
                                   label="台積電", text="TSMC")
