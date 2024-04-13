@@ -341,8 +341,8 @@ menu = TemplateSendMessage(
                         text='國中課程查詢'
                     ),
                     MessageAction(
-                        label='國小課程報價',
-                        text='國小課程報價'
+                        label='課程報價',
+                        text='課程報價'
                     )
                 ]
             ),
@@ -353,8 +353,8 @@ menu = TemplateSendMessage(
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
-                        label='國中課程報價',
-                        text='國中課程報價'
+                        label='預約視聽',
+                        text='預約視聽'
                     ),
                     MessageAction(
                         label='匯款資訊',
