@@ -123,12 +123,6 @@ def handle_message(event):
         bid=table3[user_msg]["bid3"]
         report=f"{user_msg} 現在價格{bid}"
         reply=TextSendMessage(text=report)
-    elif user_msg in table3:
-        reply=ImageSendMessage(
-        original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
-        preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
-
-    )
     else:
         try:
             GPT_answer = GPT_response(user_msg)
@@ -138,18 +132,6 @@ def handle_message(event):
             print(traceback.format_exc())
             line_bot_api.reply_message(event.reply_token, TextSendMessage('網路延遲,請五分鐘後再重發一次訊息'))
     
-
-@handler.add(MessageEvent, message=StickerMessage)
-def handle_sticker_message(event):
-    # 當有貼圖訊息傳入時
-    print('*'*30)
-    print('[使用者傳入貼圖訊息]')
-    print(str(event))
-
-    # 準備要回傳的貼圖訊息
-    # HINT: 機器人可用的貼圖 https://devdocs.line.me/files/sticker_list.pdf
-    #reply = StickerSendMessage(package_id='2', sticker_id='149')
-    reply=menu
 
 
 
@@ -196,7 +178,24 @@ def handle_sticker_message(event):
 
 
 # 貼圖訊息傳入時的處理器 
+@handler.add(MessageEvent, message=StickerMessage)
+def handle_sticker_message(event):
+    # 當有貼圖訊息傳入時
+    print('*'*30)
+    print('[使用者傳入貼圖訊息]')
+    print(str(event))
 
+    # 準備要回傳的貼圖訊息
+    # HINT: 機器人可用的貼圖 https://devdocs.line.me/files/sticker_list.pdf
+    #reply = StickerSendMessage(package_id='2', sticker_id='149')
+    reply=menu
+
+
+
+    # 回傳訊息
+    line_bot_api.reply_message(
+        event.reply_token,
+        reply)
 
 
 import os
