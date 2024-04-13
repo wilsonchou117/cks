@@ -164,6 +164,9 @@ faq = {
     '預約畫位': TextSendMessage(
         text="https://docs.google.com/spreadsheets/d/18o1G9n05nC3cSrosfvnM99IEyg1V7jHJtm-CRmd2a_s/edit?pli=1#gid=0"
     ),
+    '聯絡資訊': TextSendMessage(
+        text="(02)2397-3999"
+    ),
     '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
                               QuickReplyButton(action=MessageAction(
@@ -240,9 +243,9 @@ faq = {
     ),
     '分校地址': LocationSendMessage(
         title='my location',
-        address='Taiwan',
-        latitude=25.03528,
-        longitude=121.56473
+        address='Taipei',
+        latitude=25.03148,
+        longitude=121.51912
     ),
     '查詢匯率': TemplateSendMessage(
         alt_text='Carousel template',
