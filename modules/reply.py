@@ -305,6 +305,7 @@ faq = {
                         )
                     ]
                 )
+                
             ]
         )
     )
@@ -343,6 +344,26 @@ menu = TemplateSendMessage(
                     MessageAction(
                         label='課程報價',
                         text='課程報價'
+                    )
+                ]
+            ),
+            CarouselColumn(
+                # 卡片二圖片網址
+                thumbnail_image_url='https://picsum.photos/id/355/900/400',
+                title='心動不如馬上行動',
+                text='點選下方按鈕開始互動',
+                actions=[
+                    MessageAction(
+                        label='預約視聽',
+                        text='預約視聽'
+                    ),
+                    MessageAction(
+                        label='匯款資訊',
+                        text='匯款資訊'
+                    ),
+                    MessageAction(
+                        label='視聽觀看',
+                        text='視聽觀看'
                     )
                 ]
             ),
