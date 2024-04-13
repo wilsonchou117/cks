@@ -154,6 +154,14 @@ faq = {
         original_content_url='https://i.postimg.cc/SxfLv5r4/S-6152311-0.jpg',
         preview_image_url='https://i.postimg.cc/SxfLv5r4/S-6152311-0.jpg'
     ),
+    '國小課程報價': ImageSendMessage(
+        original_content_url='https://i.postimg.cc/YqFFLVL7/F120-D2-AF-674-D-458-F-A0-E5-B65-A4-B0-FCC7-F.jpg',
+        preview_image_url='https://i.postimg.cc/YqFFLVL7/F120-D2-AF-674-D-458-F-A0-E5-B65-A4-B0-FCC7-F.jpg'
+    ),
+    '國中課程報價': ImageSendMessage(
+        original_content_url='https://i.postimg.cc/vm03TBcD/78-EA88-FE-964-F-43-D7-A36-F-9-A98576-FEBA6.jpg',
+        preview_image_url='https://i.postimg.cc/vm03TBcD/78-EA88-FE-964-F-43-D7-A36-F-9-A98576-FEBA6.jpg'
+    ),
     '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
                               QuickReplyButton(action=MessageAction(
