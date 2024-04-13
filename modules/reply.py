@@ -226,7 +226,7 @@ faq = {
         latitude=25.03528,
         longitude=121.56473
     ),
-    '查詢匯率': TemplateSendMessage(
+    '國小課程查詢': TemplateSendMessage(
         alt_text='Carousel template',
         template=CarouselTemplate(
             columns=[
@@ -318,8 +318,8 @@ menu = TemplateSendMessage(
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
-                        label='查詢匯率',
-                        text='查詢匯率'
+                        label='國小課程查詢',
+                        text='國小課程查詢'
                     ),
                     MessageAction(
                         label='美股即時報價',
