@@ -7,9 +7,9 @@ from linebot.models import (
 
 # 常見問答表
 faq = {
-    '貼圖': StickerSendMessage(
-        package_id='1',
-        sticker_id='1'
+    '匯款資訊': ImageSendMessage(
+         original_content_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg',
+        preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
     ),
     '美股即時報價': TemplateSendMessage(
         alt_text='Carousel template2',
