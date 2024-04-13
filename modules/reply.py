@@ -314,7 +314,7 @@ menu = TemplateSendMessage(
             CarouselColumn(
                 # 卡片一圖片網址
                 thumbnail_image_url='https://picsum.photos/id/296/900/400',
-                title='報價查詢',
+                title='打手槍',
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
@@ -334,7 +334,7 @@ menu = TemplateSendMessage(
             CarouselColumn(
                 # 卡片二圖片網址
                 thumbnail_image_url='https://picsum.photos/id/355/900/400',
-                title='明牌報價',
+                title='做愛',
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
