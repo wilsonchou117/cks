@@ -177,25 +177,6 @@ def handle_message(event):
 #    line_bot_api.reply_message(event.reply_token, message)
 
 
-# 貼圖訊息傳入時的處理器 
-@handler.add(MessageEvent, message=StickerMessage)
-def handle_sticker_message(event):
-    # 當有貼圖訊息傳入時
-    print('*'*30)
-    print('[使用者傳入貼圖訊息]')
-    print(str(event))
-
-    # 準備要回傳的貼圖訊息
-    # HINT: 機器人可用的貼圖 https://devdocs.line.me/files/sticker_list.pdf
-    #reply = StickerSendMessage(package_id='2', sticker_id='149')
-    reply=menu
-
-
-
-    # 回傳訊息
-    line_bot_api.reply_message(
-        event.reply_token,
-        reply)
 
 
 import os
