@@ -331,7 +331,7 @@ menu = TemplateSendMessage(
                     ),
                     MessageAction(
                         label='國中課程查詢',
-                        text='美股即時報價'
+                        text='國中課程查詢'
                     ),
                     MessageAction(
                         label='國小課程報價',
