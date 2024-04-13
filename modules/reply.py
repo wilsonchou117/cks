@@ -353,40 +353,40 @@ menu = TemplateSendMessage(
             CarouselColumn(
                 # 卡片二圖片網址
                 thumbnail_image_url='https://picsum.photos/id/355/900/400',
-                title='心動不如馬上行動',
+                title='視聽觀看預約畫位',
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
-                        label='預約視聽',
-                        text='預約視聽'
-                    ),
-                    MessageAction(
-                        label='匯款資訊',
-                        text='匯款資訊'
-                    ),
-                    MessageAction(
                         label='視聽觀看',
                         text='視聽觀看'
+                    ),
+                    MessageAction(
+                        label='預約畫位',
+                        text='預約畫位'
+                    ),
+                    MessageAction(
+                        label='預約視聽',
+                        text='預約視聽'
                     )
                 ]
             ),
             CarouselColumn(
                 # 卡片二圖片網址
                 thumbnail_image_url='https://picsum.photos/id/355/900/400',
-                title='心動不如馬上行動',
+                title='匯款資訊分校地址',
                 text='點選下方按鈕開始互動',
                 actions=[
                     MessageAction(
-                        label='預約畫位',
-                        text='預約畫位'
+                        label='匯款資訊',
+                        text='匯款資訊'
                     ),
                     MessageAction(
                         label='分校地址',
                         text='分校地址'
                     ),
                     MessageAction(
-                        label='視聽觀看',
-                        text='視聽觀看'
+                        label='聯絡資訊',
+                        text='聯絡資訊'
                     )
                 ]
             )
