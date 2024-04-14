@@ -335,7 +335,7 @@ menu = TemplateSendMessage(
         columns=[
             CarouselColumn(
                 # 卡片一圖片網址
-                thumbnail_image_url='hhttps://i.postimg.cc/VL8DG5v4/FA57-BC5-A-CF4-F-4-FF7-BA76-0-C4-D442-EDEA1.jpg',
+                thumbnail_image_url='https://picsum.photos/id/296/900/400',
                 title='課程查詢及報價',
                 text='點選下方按鈕開始互動',
                 actions=[
@@ -355,7 +355,7 @@ menu = TemplateSendMessage(
             ),
             CarouselColumn(
                 # 卡片二圖片網址
-                thumbnail_image_url='https://i.postimg.cc/VL8DG5v4/FA57-BC5-A-CF4-F-4-FF7-BA76-0-C4-D442-EDEA1.jpg',
+                thumbnail_image_url='https://picsum.photos/id/355/900/400',
                 title='視聽觀看預約畫位',
                 text='點選下方按鈕開始互動',
                 actions=[
