@@ -165,7 +165,7 @@ faq = {
         text="https://docs.google.com/spreadsheets/d/18o1G9n05nC3cSrosfvnM99IEyg1V7jHJtm-CRmd2a_s/edit?pli=1#gid=0"
     ),
     '聯絡資訊': TextSendMessage(
-        text="電話:(02)2397-3999,地址:台北市中正區羅斯福路一段3樓38號"
+        text="電話:(02)2397-3999,地址:台北市中正區羅斯福路一段38號3樓"
     ),
     '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
