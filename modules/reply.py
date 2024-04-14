@@ -355,7 +355,7 @@ menu = TemplateSendMessage(
             ),
             CarouselColumn(
                 # 卡片二圖片網址
-                thumbnail_image_url='https://picsum.photos/id/355/900/400',
+                thumbnail_image_url='https://i.postimg.cc/VL8DG5v4/FA57-BC5-A-CF4-F-4-FF7-BA76-0-C4-D442-EDEA1.jpg',
                 title='視聽觀看預約畫位',
                 text='點選下方按鈕開始互動',
                 actions=[
@@ -375,7 +375,7 @@ menu = TemplateSendMessage(
             ),
             CarouselColumn(
                 # 卡片二圖片網址
-                thumbnail_image_url='https://picsum.photos/id/355/900/400',
+                thumbnail_image_url='https://i.postimg.cc/VL8DG5v4/FA57-BC5-A-CF4-F-4-FF7-BA76-0-C4-D442-EDEA1.jpg',
                 title='匯款資訊分校地址',
                 text='點選下方按鈕開始互動',
                 actions=[
