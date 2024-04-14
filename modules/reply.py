@@ -166,6 +166,7 @@ faq = {
     ),
     '聯絡資訊': TextSendMessage(
         text="(02)2397-3999"
+        text="台北市中正區羅斯福路一段38號3樓"
     ),
     '美股買賣點': TextSendMessage(text='請問您想詢問哪家公司？',
                           quick_reply=QuickReply(items=[
