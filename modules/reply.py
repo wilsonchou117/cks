@@ -147,12 +147,12 @@ faq = {
         preview_image_url='https://i.postimg.cc/d0y9rwNq/S-20922436.jpg'
     ),
     '國小課程查詢': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/GtP9p09h/S-6152309-0.jpg',
-        preview_image_url='https://i.postimg.cc/GtP9p09h/S-6152309-0.jpg'
+        original_content_url='https://i.postimg.cc/4NwTmBBN/image.png',
+        preview_image_url='https://i.postimg.cc/4NwTmBBN/image.png'
     ),
     '國中課程查詢': ImageSendMessage(
-        original_content_url='https://i.postimg.cc/SxfLv5r4/S-6152311-0.jpg',
-        preview_image_url='https://i.postimg.cc/SxfLv5r4/S-6152311-0.jpg'
+        original_content_url='https://i.postimg.cc/9057Syks/1.png',
+        preview_image_url='https://i.postimg.cc/9057Syks/1.png'
     ),
     '課程報價': ImageSendMessage(
         original_content_url='https://i.postimg.cc/Z5P0mvCt/S-20881558.jpg',
